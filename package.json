@@ -1,14 +1,37 @@
 {
   "name": "twitter-clone",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Mustafa Berat ARU",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^9.4.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafaberat/twitterCloneOne.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mustafaberat/twitterCloneOne/issues"
+  },
+  "homepage": "https://github.com/mustafaberat/twitterCloneOne#readme",
+  "description": ""
 }

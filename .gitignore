@@ -1,6 +1,9 @@
 # dependencies
 /node_modules
 
+# special
+yarn.lock
+
 # testing
 /coverage
 
