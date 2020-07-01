@@ -9,5 +9,5 @@ export default {
 };
 
 export const BasicButton = () => (<Button>Basic</Button>);
-export const Menu = () => (<NavButton>Menu</NavButton>);
+export const NavigationButton = () => (<NavButton>Menu</NavButton>);
 export const Nav = () => (<Navigation />);
