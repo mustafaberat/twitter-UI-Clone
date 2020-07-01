@@ -6,7 +6,7 @@ import styles from './nav-button.module.css';
 
 function NavButton({ children }) {
     return (
-        <Button className={styles.button}>
+        <Button className={styles.navButton}>
             {children}
         </Button>)
 }
