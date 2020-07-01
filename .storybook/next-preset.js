@@ -35,6 +35,15 @@ module.exports = {
                         importLoaders: 1,
                         modules: true
                     }
+                },
+                { // to make postcss in each css file
+                    loader: 'postcss-loader',
+                    options: {
+                        sourceMap: true,
+                        config: {
+                            path: './.storybook/'
+                        }
+                    }
                 }
             ]
         });
