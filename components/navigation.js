@@ -2,6 +2,7 @@ import React from 'react';
 
 import NavButton from './navigation-button';
 import { Twitter, Home, Explore, Notification, Messages, Lists, Profile, More } from '../components/icons/index';
+import TitleBold from '../components/title-bold';
 
 import styles from './navigation.module.css'
 
@@ -13,31 +14,31 @@ function Navigation() {
             </NavButton>
             <NavButton>
                 <Home />
-                <span>Home</span>
+                <TitleBold>Home</TitleBold>
             </NavButton>
             <NavButton>
                 <Explore />
-                <span>Explore</span>
+                <TitleBold>Explore</TitleBold>
             </NavButton>
             <NavButton>
                 <Notification />
-                <span>Notification</span>
+                <TitleBold>Notification</TitleBold>
             </NavButton>
             <NavButton>
                 <Messages />
-                <span>Messages</span>
+                <TitleBold>Messages</TitleBold>
             </NavButton>
             <NavButton>
                 <Lists />
-                <span>Lists</span>
+                <TitleBold>Lists</TitleBold>
             </NavButton>
             <NavButton>
                 <Profile />
-                <span>Profile</span>
+                <TitleBold>Profile</TitleBold>
             </NavButton>
             <NavButton>
                 <More />
-                <span>More</span>
+                <TitleBold>More</TitleBold>
             </NavButton>
         </nav>
     )

@@ -1,3 +1,8 @@
-.nav button {
-  display: block;
+.nav {
+  button {
+    /* IF Button after button => mt8 */
+    & + button {
+      margin-top: 8px;
+    }
+  }
 }
