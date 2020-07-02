@@ -17,3 +17,7 @@
     }
   }
 }
+
+.navButtonSelected {
+  color: var(--c-theme);
+}
