@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "npm run build-stroybook && next build",
+    "build": "npm run build-storybook && next build",
     "start": "next start",
     "generate-icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\" ",
     "storybook": "start-storybook -p 6006",
