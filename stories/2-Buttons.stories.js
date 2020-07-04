@@ -4,7 +4,7 @@ import Button from "../components/button";
 import NavigationButton from "../components/navigation-button";
 import ThemeButton from "../components/theme-button";
 import Navigation from "../components/navigation";
-
+import Stack from "../components/stack";
 import { Home } from '../components/icons/index';
 import TitleBold from '../components/text-title';
 
@@ -15,16 +15,14 @@ export default {
 
 export const BasicButton = () => (<Button>Basic Button</Button>);
 
-export const Theme = () => (
+export const GeneralButtons = () => (
     <div>
-        <ThemeButton>Theme Button</ThemeButton>
-        <ThemeButton full>Full Theme Button</ThemeButton>
-        <ThemeButton full>Full Theme Button</ThemeButton>
-    </div>);
+        <Stack column gap={20}>
+            <ThemeButton>Theme Button</ThemeButton>
+            <ThemeButton full>Full Theme Button</ThemeButton>
+            <ThemeButton full big>Big Theme Button</ThemeButton>
+        </Stack>
 
-
-export const NavButtons = () => (
-    <div>
         <NavigationButton>
             <Home />
             <TitleBold>Sample Home Button</TitleBold>

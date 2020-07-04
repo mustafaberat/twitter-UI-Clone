@@ -16,3 +16,7 @@
 .full {
   width: 100% !important;
 }
+
+.big {
+  height: 47px;
+}
