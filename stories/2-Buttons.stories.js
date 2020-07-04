@@ -2,6 +2,7 @@ import React from 'react';
 
 import Button from "../components/button";
 import NavigationButton from "../components/navigation-button";
+import ThemeButton from "../components/theme-button";
 import Navigation from "../components/navigation";
 
 import { Home } from '../components/icons/index';
@@ -13,6 +14,14 @@ export default {
 };
 
 export const BasicButton = () => (<Button>Basic Button</Button>);
+
+export const Theme = () => (
+    <div>
+        <ThemeButton>Theme Button</ThemeButton>
+        <ThemeButton full>Full Theme Button</ThemeButton>
+        <ThemeButton full>Full Theme Button</ThemeButton>
+    </div>);
+
 
 export const NavButtons = () => (
     <div>
