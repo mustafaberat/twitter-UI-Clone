@@ -4,11 +4,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "npm run build-stroybook && next build",
     "start": "next start",
     "generate-icon": "svgr icons -d components/icons --icon --replace-attr-values \"#fff=currentColor\" ",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -o public/ui"
   },
   "keywords": [],
   "author": "Mustafa Berat ARU",

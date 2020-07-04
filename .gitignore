@@ -3,6 +3,7 @@
 
 # special
 yarn.lock
+public/ui
 
 # testing
 /coverage
