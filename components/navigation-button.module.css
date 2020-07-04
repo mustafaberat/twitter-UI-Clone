@@ -1,6 +1,5 @@
 .navButton {
   position: relative;
-  color: var(--c-text);
   padding: 10px;
   border-radius: 999px;
   display: flex;

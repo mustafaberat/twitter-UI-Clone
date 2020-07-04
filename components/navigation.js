@@ -2,7 +2,7 @@ import React from 'react';
 
 import NavButton from './navigation-button';
 import { Twitter, Home, Explore, Notification, Messages, Lists, Profile, More } from '../components/icons/index';
-import TitleBold from '../components/title-bold';
+import TitleBold from '../components/text-title';
 
 import styles from './navigation.module.css'
 
