@@ -1,5 +1,9 @@
 /* THIS PAGE IS SPECIAL FOR STORYBOOK */
 
+body {
+  padding: 20px;
+}
+
 .allicons {
   color: white;
   display: grid;
