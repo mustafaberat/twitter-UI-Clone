@@ -2,6 +2,7 @@ import React from 'react';
 
 import * as AllIcons from '../components/icons'
 import Avatar from '../components/avatar'
+import ProfileBox from '../components/profile-box'
 
 export default {
   title: 'Icons',
@@ -43,4 +44,8 @@ export const allIcons = () => (
 
 export const ProfilePhoto = () => (
   <Avatar />
+)
+
+export const ProfileContainer = () => (
+  <ProfileBox />
 )
