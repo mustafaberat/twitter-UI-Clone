@@ -1,6 +1,7 @@
 import React from 'react';
 
 import * as AllIcons from '../components/icons'
+import Avatar from '../components/avatar'
 
 export default {
   title: 'Icons',
@@ -38,3 +39,8 @@ export const allIcons = () => (
     <AllIcons.Twitter />
   </div>
 );
+
+
+export const ProfilePhoto = () => (
+  <Avatar />
+)
