@@ -12,7 +12,7 @@ function HomePage() {
 
     return (
         <Layout>
-            <Sidebar fate={size.width < CONST.DESKTROP_SIZE}>Sidebar</Sidebar>
+            <Sidebar flat={size.width < CONST.DESKTROP_SIZE}>Sidebar</Sidebar>
             <Main>{JSON.stringify(size)}</Main>
             {size.width > CONST.TABLET_SIZE && <Extra>Extra</Extra>}
         </Layout>
