@@ -6,7 +6,7 @@ import TitleBold from '../components/text-title';
 
 import styles from './navigation.module.css'
 
-function Navigation({ selectedKey }) {
+function Navigation({ flat = false, selectedKey }) {
     return (
         <nav className={styles.nav}>
             <NavButton>

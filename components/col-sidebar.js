@@ -2,12 +2,19 @@ import React from 'react';
 
 import classNameMerger from 'classnames'
 
+import Navigation from './navigation'
+import ThemeButton from './theme-button'
+import ProfileBox from './profile-box'
+
 import styles from './col-sidebar.module.css'
 
-function Sidebar({ children }) {
+function Sidebar({ flat }) {
     return (
         <div className={classNameMerger(styles.sidebar)}>
-            {children}
+            <Navigation flat />
+            <ThemeButton big full> Tweet </ThemeButton>
+            <ProfileBox />
+
         </div>
     )
 }
