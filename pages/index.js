@@ -1,5 +1,6 @@
 import React from 'react';
 
+import CONST from '../constants/variables'
 import Layout from '../components/layout'
 import useWindowSize from '../hooks/useWindowSize'
 
@@ -8,9 +9,9 @@ function HomePage() {
 
     return (
         <Layout>
-            <div fate={size.width < 1270}>Sidebar</div>
+            <div fate={size.width < CONST.DESKTROP_SIZE}>Sidebar</div>
             <div>{JSON.stringify(size)}</div>
-            {size.width > 980 && <div>Extra</div>}
+            {size.width > CONST.TABLET_SIZE && <div>Extra</div>}
         </Layout>
     )
 }
